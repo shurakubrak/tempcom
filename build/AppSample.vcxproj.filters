@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MEGA\SOFTPROJECTS\VS_projects\Testing\Teplocom\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MEGA\SOFTPROJECTS\VS_projects\Testing\Teplocom\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34D7130E-9C50-3920-8097-D78ABC2D3661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

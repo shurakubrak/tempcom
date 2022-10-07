@@ -1,0 +1,52 @@
+typedef	struct
+{
+// Calibration
+uint16_t	_EEPROM_Flags;
+float		_MC_U1, _MC_Q1, _MC_U2, _MC_Q2;
+float		_MC_U3, _MC_Q3;
+float		_MC_U4, _MC_Q4;
+
+float		_MC_U5;
+
+// Account
+uint16_t		_MC_DU;
+int16_t		_MC_InFilt_Kp;
+uint16_t		_MI_Clock_Divisor;
+
+// Outputs
+int16_t		_ITG_OutputWeight;
+
+uint16_t		_IFM_Mode;
+
+float		_IFM_Lowest_Value;
+float		_IFM_PulseWeight;
+
+float		_PWM_RangeFI_InLo_, _PWM_RangeFI_InHi_,
+		_PWM_RangeFI_OutLo_, _PWM_RangeFI_OutHi_;
+float		_PWM_RangeIDAC_InLo_, _PWM_RangeIDAC_InHi_;
+uint16_t		_PWM_RangeIDAC_OutLo_, _PWM_RangeIDAC_OutHi_;
+
+float		_Doze_Level1_10ls;
+
+float		_MO_CmpLevel1;
+float		_MO_CmpLevel2;
+
+// System
+uint8_t		_NetWork_Address;
+uint8_t		_G_SerialNum_hi;
+uint16_t		_G_SerialNum;
+
+// Testing (really removed, only for compatibility)
+float		_MC_Q5;
+
+uint16_t		_LCD_ValuesList;
+uint16_t		_LCD_Filter;
+uint16_t		_LCD_ValuesTime;
+
+uint8_t		_KBD_List[4];
+
+float		_Doze_Level2_10ls;
+
+uint32_t		_eTime_Stamp;
+uint32_t		_iTime_Stamp;
+}	EEP_ParamStruct;
