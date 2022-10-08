@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cassert>
 #include "main.h"
 
 using namespace std;
