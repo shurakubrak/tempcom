@@ -6,4 +6,6 @@ packages/
 *.log
 *.user
 .vs
+.vscode
 tmp
+build

@@ -127,7 +127,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=AppSample
+CMAKE_PROJECT_NAME:STATIC=teplcom
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -255,6 +255,9 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
 //Command to build the project
 MAKECOMMAND:STRING="C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
@@ -266,6 +269,15 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-F6RKC92
+
+//Value Computed by CMake
+teplcom_BINARY_DIR:STATIC=D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build
+
+//Value Computed by CMake
+teplcom_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+teplcom_SOURCE_DIR:STATIC=D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom
 
 
 ########################
@@ -434,6 +446,8 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND

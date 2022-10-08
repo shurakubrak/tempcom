@@ -112,7 +112,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/AppSample.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/teplcom.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/AppSample.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/teplcom.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -138,7 +138,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/AppSample.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/teplcom.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/AppSample.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/teplcom.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

@@ -1,6 +1,6 @@
 ^D:\MEGA\SOFTPROJECTS\VS_PROJECTS\TESTING\TEPLOCOM\BUILD\CMAKEFILES\EC54737F16861096B71FAC04B0002467\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/AppSample.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom -BD:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/teplcom.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

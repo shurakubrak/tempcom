@@ -2,7 +2,7 @@ D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/Experimental.
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/Nightly.dir
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/Continuous.dir
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/NightlyMemoryCheck.dir
-D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/AppSample.dir
+D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/teplcom.dir
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/PACKAGE.dir
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/RUN_TESTS.dir
 D:/MEGA/SOFTPROJECTS/VS_projects/Testing/Teplocom/build/CMakeFiles/ALL_BUILD.dir

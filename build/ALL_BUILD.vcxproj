@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\MEGA\SOFTPROJECTS\VS_projects\Testing\Teplocom\build\AppSample.vcxproj">
-      <Project>{86CC51A6-724F-38F5-AD09-3899119E3C1B}</Project>
-      <Name>AppSample</Name>
+    <ProjectReference Include="D:\MEGA\SOFTPROJECTS\VS_projects\Testing\Teplocom\build\teplcom.vcxproj">
+      <Project>{38D0702A-DD89-3763-A186-49F28F10831E}</Project>
+      <Name>teplcom</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
